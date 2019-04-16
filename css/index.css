@@ -1,0 +1,32 @@
+a{
+	text-decoration: none;
+
+}
+#container{
+	background-image: -webkit-linear-gradient(160deg, #009900, 50%, #000033 50%);
+	min-height: 50vw;
+}
+
+.user-logo img{
+	border-radius: 50%;
+	height: 15vw;	
+	transition: all .2s ease-in-out;
+}
+
+#stu-logo img{
+	margin: 15vw 0 0 30vw;
+}
+
+#stu-logo img:hover{
+	transform: scale(1.1);
+}
+
+#fac-logo img{
+	width: 15vw;
+	float: right;
+	margin: 25vw 32vw 0 0;
+}
+
+#fac-logo img:hover{
+	transform: scale(1.1);
+}
