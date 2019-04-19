@@ -6,12 +6,16 @@
 	<body>
 		<div id="container">
 			<div class="login-as">
-				<a class="user-logo" id="stu-logo" href="stu-login.php">
-					<img src="img/stu.png">
-				</a>
-				<a class="user-logo" id="fac-logo" href="fac-login.php">
-					<img src="img/fac.png">
-				</a>
+				<center>
+					<a href="stu-login.php">
+						<img id="stu-logo" src="img/stu.png">
+						<div id="stu-text"> STUDENT </div>
+					</a>
+					<a href="fac-login.php">
+						<img id="fac-logo" src="img/fac.png">
+						<div id="fac-text"> FACULTY </div>
+					</a>
+				</center>
 			</div>
 		</div>
 	</body>
